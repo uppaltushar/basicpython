@@ -1,0 +1,157 @@
+why python
+1> easy
+2> general purpose PL
+3>hiigh level PL
+4> father: Guido Van Rossam 1989 ->NRI national reaseach insitute neitherland
+5>1991 -> officially general public ke liye launch kr di thi
+6> interpretable PL
+7>dynamic type PL
+8> features: 
+
+
+dynamically typed PL
+# numeric :int float complex boolean double long
+#strings
+#set
+#tuple
+#dictionary
+
+a=1.2e36
+
+
+Complex:
+a+ib real+i imagnary
+
+1>string is a sequence of characters
+2>seqence data type int
+3>we can use index to acess string elements
+4>py support both +ve and -ve index
+5> string immutable
+s="asdfgh"
+print(s.upper())
+print(s.lower())
+print(s.strip())
+isalpha()
+isdigit()
+isspace()
+delete:
+del(s)
+startswith('abc')
+endswith('abc')
+find('abc')
+replace('abc','new')
+split(' ')
+' '.join
+
+slicing
+s[begin:end:stepsize]
+s[-7:-3]
+
+
+LIST:
+1>sequence data type
+2>mutuable
+3>l=['a','b']
+
+append(element)
+insert(index)
+list.sort()
+list.reverse()
+list.pop(index)
+list.count(element)
+
+
+
+
+
+
+
+immutable: once we created an object we are not allowed to change its content in case we try to change the content ,for that change a new object will be created.
+feature
+resuability:
+memory usage will improve:
+performance increases:
+
+
+shallowcopy: if original object contain any reference to mutuable objects ,then the duplicate reference variable will be created pointing to old contain object but no duplicate objects can creatd.
+deep copy: 
+
+
+TUPLE: it is a immutable list 
+modification not possible
+sequence data type
+faster compared to list
+
+
+SET:
+mutuable
+unordered collection of items
+no indexing n slicing
+
+frozen set
+
+union : set1.union(set2)
+DICTIONARY:
+unordered pair
+slicing and indexing not possible
+
+DEcision statement:
+if else loop
+nested if else
+
+Function:
+def fun()
+
+
+
+OOPs: huge application
+->security
+class:it is the blue print of an object
+object:a real world entity created from the blue print
+*****************
+inherttance
+polymorphism
+encapsulation
+abstrction
+
+syntax:
+class <classname>:
+	1.variables(instance,static,local)
+	2.methods(instance,static,class)
+
+functional proggramming:
+
+instance:we have to declare 
+use object reference to acess these variable soutside a class
+for every object a seperate copy of instance variable is created 
+'self' inside constructor &class methods 
+-> only one copy of self varible is created 
+-> memory utilization improves
+-> 
+
+Inheritance:
+-> define relationship b/w parent and child
+->allow you to build classes from exisiting classes
+inheritance:
+
+1!>multiple inheritance
+2>mutlyi in heri tance
+
+
+
+Exception:
+->when ever exception is raised the program terminates abnormally and the rest of the appliction is not executed ,
+->the main imp of exception handling is to get the normal termination of the application 
+-> there are 2 times of error
+	1> syntax error->bcz of invalid syntax as a programmer you are responsible to correct these errors.once all the syntax errors are corrected program execution is up
+	2>run time error->
+->in exception handling concept is only valid for runtime errors
+
+ValueError
+ZeroDivisionError
+
+
+
+
+f=open('filename.txt',mode)
+

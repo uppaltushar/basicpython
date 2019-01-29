@@ -1,0 +1,264 @@
+10-07-18
+1> if and else ek line mai hone chaye
+2>( # )this is a single line comment 
+3>( ''' ) this is a para comment
+4> this is +\ a country (output ikkati aaege)
+5> assign values: a=b=c=16
+                    or
+                    a,b,c=16,2,3
+6> input lene ke liye syntax:
+          a=input('enter')
+            print(a)
+7> use ; to wrigte your code in single line
+8>arthmatic operator: + - * / 
+                     modolous %
+                    floor    a//b
+                    power a**b
+9> comparison oprator : == (check)
+                         !=(value eual nhi hai toh true return krega) 
+                          >= <=
+10> assignment oprators: += -= *= /=
+
+ques: write a program to enter a numberand state hexa and octa equivalent??????
+
+
+
+
+11-07-18
+
+1>range(beggining,end,step)
+
+2>   for i in range(1,11):
+	print(i)   <ye 1 to 10 print kr dega>
+
+3>     for i in range(1,11,2):
+	print(i) <step... diya hai isme>
+
+4>    for i in range(1,11):
+	print(i,end=" ")  <for print output in same line>    
+
+ques: write a multiplication table of n where n is enterend by user
+  ques: write a program using for loop to print number from n to m and classify them as even and odd
+
+
+ques: leap year?
+ques:factorial?
+
+
+
+
+
+
+
+12-07-18
+while loop
+statement x
+while condition: 
+statement block
+statement y
+
+ i=0
+while i<10:
+print(i)
+i=i+1
+
+ 
+ques: write thesum and average of first ten numbers using while loop?
+ques: program to read thr nos until(-1) is encountered also count the negatives , positives and zeros enterd by the user 
+(if elif)
+ques: gcd odf two no's
+ques input 123 
+      output:6
+
+
+16-07-18
+ques:write a program to find those numbers which are divisible by 7 and 5 b/w 1500 and 2700.(both included)
+ques: write a program that iterates the integer from 1 to 15, for multiples of 3 fizz instead of number and for multiples of 5 buzz and for number which are multiples of 3 and 5 ..print fizz and buzz
+
+ques :write a program using while loop that accept a number from the user and print the countdown from that number to zero
+
+concept:
+sum of series 1/2+2/3+.........n/n+1
+
+n=int(input("enter"))
+s=0.0
+for i in range(1,n+1):
+    a=float(i)/(i+1)
+    s=s+a
+print(s)
+    
+
+17-07-18
+
+
+<bunk>
+<yugam ka bday tha>
+
+18-07-18
+
+Functions
+1> nothing goes in and nothing goes out
+def display_message():
+print("hi")
+radius=5
+print(radius)
+display.message()
+
+
+2> Nothing goes in, something comes out
+def display_message():
+mynumber=random.randint(10,20)
+return my_number
+a=display.message()
+print(a)
+
+
+3>
+something goes in something comes out
+
+def cal.area(length,breadth)
+area=length*breadth
+print(area)
+cal.area(10,20)
+
+4>
+something goes in something comes out
+
+def cal_area(length,breadth)
+area=length*breadth
+return area
+cal_area(10,20)
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><>
+def sq.return(num):
+return num**2
+
+def sq.print(num)
+print(num**2)
+
+ans_return=sqreturn(4)
+ans.return
+16
+a=sq_print(4)
+16
+a
+a.return*5
+80
+
+
+a dual parameter
+def()
+
+
+<19-07-18>
+
+workshop pr hai hum log
+<20-07-18>
+workshop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class 401
+ 
+24-07-18
+
+
+ques: wap to count lower case uppercae digit alphabet from a given string
+ques: wap to print odd index of a given string
+ques:wap to count occurence of substring in a given string
+          
+          input: my name is rohan
+                   is
+            output :2
+
+ques:wap to ad string "yes " to  GIVEN string if yes 
+
+
+METHOD IN STRING:
+1> capitalize()
+
+2> count() 
+
+3>endswith,startswith()
+
+4>find(),index()
+
+5>isalpha(),isalnum(),isdigit()
+
+6>islower(),isupper()
+
+7>join()
+
+8>strip()
+
+9>slice()
+
+10>split
+
+11>replace
+12>len
+
+ques:wap to calculate balance of n transctions xyz bank 
+input 5(transctions)
+d 200
+w100
+d 50
+d 50
+w 50
+balance 150
+
+25-07-18
+
+Random package
+
+
+
+
+30-07-18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
